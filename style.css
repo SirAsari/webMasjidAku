@@ -1557,5 +1557,5 @@ hr {
 
 .previous:hover,
 .next:hover {
-    transform: scale(2);
+    transform: scale(0.91);
 }

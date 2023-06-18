@@ -131,7 +131,7 @@ $donators = array(
             </div>
         </div>
         <div class="image-container">
-            <img id="image-container" src="img/literasiJumat.JPG" alt="Image">
+            <img id="image-container" src="img/gambar-masjid3.jpg" alt="Image">
         </div>
 
         <div class="frame-1878">
@@ -653,7 +653,7 @@ $donators = array(
 
 </html>
 <script>
-    var images = ['img/literasiJumat.JPG', 'img/women.jfif', 'img/duha.jfif']; 
+    var images = ['img/gambar-masjid1.jpg', 'img/gambar-masjid2.jpg', 'img/gambar-masjid3.jpg']; 
     var currentIndex = 0; 
 
     function changeImage(direction) {
