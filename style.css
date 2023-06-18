@@ -1,0 +1,1561 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:500,700,600,400|Epilogue:500|Inter:500');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --tangaroa: rgba(0, 30, 66, 1);
+    --eerie-black-2: rgba(24, 24, 24,1);
+    --eerie-black: rgba(24, 31, 28,1);
+    --bay-of-many-2: rgba(31, 57, 132, 0.149);
+    --bay-of-many: rgba(31, 57, 132, 1);
+    --gray: rgba(145, 145, 145, 1);
+    --mountain-mist: rgba(153, 153, 153, 1);
+    --silver: rgba(189, 189, 189, 1);
+    --gallery: rgba(234, 236, 240, 1);
+    --gallery-2: rgba(238, 238, 238, 1);
+    --white-lilac: rgba(248, 249, 251, 1);
+    --yellow-sunshine: rgba(255, 245, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxs: 14px;
+    --font-size-xs: 16px;
+    --font-size-s: 20px;
+    --font-size-m: 23.4px;
+    --font-size-l: 24px;
+    --font-size-xl: 26px;
+    --font-size-xxl: 56px;
+
+    --font-family-be_vietnam_pro: "Be Vietnam Pro";
+    --font-family-epilogue: "Epilogue";
+    --font-family-inter: "Inter";
+}
+
+.bevietnampro-bold-bay-of-many-36px {
+    color: var(--bay-of-many);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-white-24px-2 {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-1);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-40px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal
+}
+
+.bevietnampro-medium-gray-23-4px {
+    color: var(--gray);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-37px {
+    color: var(--eerie-black-2);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 37px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-eerie-black-20-3px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-eerie-black-14px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-cs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-white-24px {
+    font-family: var(--font-family-ne_vietnam_pro);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-64px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-mountain-mist-23-4px {
+    color: var(--mountain-mist);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+    max-width: 735px;
+}
+
+.bevietnampro-medium-gray-20px {
+    color: var(--gray);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.epilogue-medium-eerie-black-20px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-bay-of-many-64px {
+    color: var(--bay-of-many);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-semi-bold-eerie-black-64px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-31-2px {
+    color: var (--eerie-black-2);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-gray-14px {
+    color: var(--gray);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-white-64px {
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-semi-bold-bay-of-many-32px {
+    color: var(--bay-of-many);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bevietnampro-medium-silver-13px {
+    color: var(--silver);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-normal-gray-14px {
+    color: var(--gray);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bevietnampro-medium-gray-30px {
+    color: var(--gray);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-yellow-sunshine-24px {
+    color: var(--yellow-sunshine);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Be Vietnam Pro', Sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding-left: 25px;
+    display: flex;
+    align-items: center; /* Align the logo and brand name vertically */
+}
+
+.logo p {
+    font-family: 'Be Vietnam Pro', Sans-serif;  
+    color: rgb(34, 55, 71);
+    font-weight: bold;
+    padding-left: 15px;
+    max-width: 60%;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Position the logo and nav links at opposite ends */
+    padding: 19px 0px 20px 28px; /* Add some padding for spacing */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding-right: 21px;
+}
+
+.nav-links a {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 31px 0px 12px;
+    list-style-type: none;
+    color: rgb(34, 55, 71);
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    transform: scale(0.95);
+}
+
+.nav-links a.active {
+    position: relative;
+}
+  
+.nav-links a.active:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 25%;
+    height: 2.6px;
+    background: #1F3984;
+    border-radius: 40px;
+}
+
+.logo-wikrama {
+    max-width: 61px;
+    margin-right: 10px; 
+}
+
+main {
+    margin-left: 54px;
+    margin-right: 54px;
+}
+
+header {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text {
+    max-width: 700px; /* Adjust the value according to your needs */
+    word-wrap: break-word;
+}
+
+.header-text p {
+    font-size: 27px;
+    font-weight: 500;
+    color: #919191;
+}
+
+.header-text h3 {
+    color: #181F1C  ;
+    font-size: 59px;
+    margin-top: 25px;
+    word-spacing: 8px;
+}
+
+.header-text span {
+    color: #1F3984;
+}
+
+button.donasi-button {
+    margin-top: 90px;
+    border: none;
+    background-color: #1F3984;
+    color: white;
+    padding: 20 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    transition: transform 0.3s ease;
+}
+
+button.donasi-button:hover {
+    transform: scale(0.95);
+}
+
+.header-image {
+    position: relative;
+    margin-top: 30px;
+    max-width: 430px;
+}
+
+.cards-container {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(-60%, -70%);
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    background-color: white;
+    padding: 11px;
+    border-radius: 10px;
+    box-shadow: 0.974474px 7.7958px 58.4685px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 32px;
+    transition: transform 0.3s ease;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    transform: scale(0.95);
+}
+
+.card1 img,
+.card2 img,
+.card3 img { 
+    width: 29px;
+    height: 29px;
+    align-self: center; 
+    margin-right: 8px; 
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 17px;
+    height: 40px; 
+    max-width: 110px; 
+    word-wrap: break-word;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.dana-status-container {
+    margin-top: 117px;
+    margin-left: 2px;
+    margin-right: 39px;
+    padding-left: 39px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.totalTarget p,
+.totalDanaTerkumpul p,
+.totalDonatur p {
+    font-size: 19px;
+    color: #919191;
+}
+
+.totalTarget h1, 
+.totalDanaTerkumpul h1,
+.totalDonatur h1 {
+    margin-top: 4px;
+    color: #181F1C;
+    font-size: 42px;
+}
+
+.totalTarget {
+
+}
+
+.totalDanaTerkumpul {
+    margin: auto;
+}
+
+.totalDonatur {
+
+}
+
+.statusKeuangan {
+    box-shadow: 0.974474px 7.7958px 58.4685px rgba(0, 0, 0, 0.1);
+;
+}
+
+.progress-bar-container {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.progress-bar {
+    background-color: #1F3984;
+    height: 35px;
+    width: 0;
+    max-width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    margin-bottom: 23px;
+}
+
+.progress-bar-text {
+    margin-top: 16px;
+    margin-right: 39px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F3984;
+}
+
+.progress-bar-text-small {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.donator-name {
+    margin-left: 50px;
+    color: white;
+}
+  
+.donator-kategori {
+  color: #FFF500;
+}
+  
+.donator-nominal-barang {
+  color: #FFF500;
+}
+
+hr {
+    margin-top: 31px;
+    width: 94%;
+    margin-left: 45px;
+}
+
+.running-text {
+    background-color: #1F3984;
+    padding: 21px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.running-text marquee {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.dot {
+    color: gray;
+}
+
+.banner-section-container {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-indicator {
+    display: flex;
+    margin-top: 19px;
+}
+
+.indicator {
+    width: 40px;
+    max-width: 70px;
+    height: 16px;
+    background-color: #EEEEEE;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+    border-radius: 18px;
+    margin-right: 13px;
+}
+
+.indicator.active {
+  background-color: #1F3984;
+  width: 70px;
+  max-width: 70px;
+  border-radius: 18px;
+}
+
+.banner-button {
+    display: flex;
+}
+
+.image-container {
+    margin-top: 60px;
+    width: 100%;
+    height: 500; 
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 190px;
+    border-radius: 15px;
+}
+
+.image-container img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-1878 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.frame-18785 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    position: relative;
+}
+
+.manfaat-wakaf-infaq-shodaqoh {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 760px;
+}
+
+.berikut-adalah-beber {
+    width: 781px;
+}
+
+.macbook-pro-1 .berikut-adalah-1 {
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+}
+
+.frame-18784 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    gap: 54px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.frame-18783 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 51.65px;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-1878-1 {
+    align-items: flex-start;
+    display: flex;
+    gap: 34.88px;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-1877 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 19.49px;
+    box-shadow: 0.97px 7.8px 58.47px #0000001a;
+    display: flex;
+    flex-direction: column;
+    gap: 24.36px;
+    height: 339.9px;
+    overflow: hidden;
+    padding: 38.98px;
+    position: relative;
+    width: 410.25px;
+}
+
+.outline-like-heart {
+    height: 197px;
+    left: 172px;
+    position: absolute;
+    top: 265px;
+    width: 238px;
+}
+
+.frame-18567 {
+    background-color: var(--bay-of-many-2);
+    border-radius: 43.85px;
+    height: 87.7px;
+    min-width: 87.7px;
+    position: relative;
+}
+
+.bold {
+    height: 58px;
+    lefT: 15px;
+    position: absolute;
+    top: 15px;
+    width: 58px;
+}
+
+/* starting here */
+
+.frame-18571 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 20.46px;
+    position: relative;
+}
+
+.kami-memberikan-harg {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+}
+
+.menjadikan-hati-lebih-tenang {
+    align-self: stretch;
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.97;
+}
+
+.frame-1877-1 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 19.49px;
+    box-shadow: 0.97px 7.8px 58.47px #0000001a;
+    display: flex;
+    flex-direction: column;
+    gap: 24.36px;
+    height: 381.9px;
+    overflow: hidden;
+    padding: 24.99px;
+    position: relative;
+    width: 394.66px;
+}
+
+.allah-swt-akan-membu {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+    width: 80%;
+}
+
+.terbukanya-pintu-rezeki {
+    align-self: stretch;
+    color: var(--eerie-black-2);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.97px;
+    position: relative;
+    max-width: 60%;
+}
+
+.outline-money-verified-check {
+    height: 208px;
+    left: 172px;
+    position: absolute;
+    top: 254px;
+    width: 223px;
+}
+
+.outline-weather-stars {
+    height: 209px;
+    left: 173px;
+    position: absolute;
+    top: 253px;
+    width: 222px;
+}
+
+.pahala-yang-tak-terputus {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.97;
+    position: relative;
+}
+
+.ini-akan-menolong-ki {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+    max-width: 80%;
+}
+
+.menjauhkan-dari-bahaya {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.97px;
+    position: relative;
+    max-width: 79%;
+}
+
+.rasulullah-saw-perna {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    max-width: 80%;
+}
+
+.outline-security-shield-check {
+    height: 207px;
+    left: 172px;
+    position: absolute;
+    top: 255px;
+    width: 238px;
+}
+
+.handHold {
+    align-self: stretch;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    border-radius: 15px;
+}
+
+.name-1 {
+    margin-top: 113px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 964px;
+}
+
+.berikut-adalah {
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+    width: 928px;
+}
+
+.frame-18787 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 53px
+}
+
+.frame-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    width: 629.31px;
+}
+
+.frame-57 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--white);
+    border-radius: 19.49px;
+    box-shadow: 0.97px 7.8px 58. 47px #0000001a;
+    display: flex;
+    flex-direction: column;
+    gap: 8.12px;
+    overflow: hidden;
+    padding: 22.73p 27.6px;
+    position: relative;
+}
+
+.frame-563 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 16.24px;
+    position: relative;
+}
+
+.frame-569 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 11.37px;
+    position: relative;
+}
+
+.pilih-metode-pembaya {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+}
+
+.upload-bukti-pembayaran {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.81px;
+    position: relative;
+    width: fit-content;
+}
+
+.macbook-pro1 .number-4 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.81px;
+    position: relative;
+    width: fit-content;
+}
+
+.number {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.81px;
+    position: relative;
+    width: fit-content;
+}
+
+.isikan-form-pengisia,
+.pembayaran-anda-akan {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+}
+
+.isi-form-data-diri,
+.verifikasi-pembayaran {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.81px;
+    position: relative;
+    width: fit-content;
+}
+
+.isikan-nominal-shodaqoh {
+    line-height: normal;
+    margin-top: -0.81px;
+    width: fit-content;
+}
+
+.macbook-pro-1 .isikan-nominal {
+    letter-spacing: 0;
+    position: relative;
+}
+
+.isikan-nominal-yang {
+    align-self: stretch;
+    line-height: 37.4px;
+}
+
+.dana-donatur-wakaf-infaq-shodaqoh {
+    padding-top: 23%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 900px;
+}
+
+.berikut-adalah {
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+    width: 780px;
+}
+
+
+/* Tabel wakaf*/
+
+.table::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+.table {
+    align-items: flex-start;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--gallery);
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.column-4 {
+    width: 135px;
+}
+
+.column-7 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.table-cell-4 {
+    align-items: center;
+    background-color: var(--white);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--gallery);
+    display: flex;
+    height: 34px;
+    position: relative;
+}
+
+.table-cell-2 {
+    align-self: stretch;
+    padding: 16px 12px;
+}
+
+.text-3 {
+    flex: 1;
+    line-height: 20px;
+}
+
+.macbook-pro-1 .text6 {
+    letter-spacing: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.macbook-pro-1 .table-header-2 {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.table-header-cell {
+    align-self: stretch;
+    background-color: var(--white-lilac);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--gallery);
+    gap: 12px;
+    height: 44px;
+    padding: 12px;
+}
+
+.table-header-1 {
+    gap: 4px;
+    margin-right: -3px;
+    width: fit-content;
+}
+
+.text {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.column {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 254px;
+}
+
+.macbook-pro-1 .table-1 {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.table-header {
+    gap: 4px;
+    width: fit-content;
+}
+
+.table-cell {
+    align-self: stretch;
+    border-color: var(--white);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background-color: var(--gallery);
+    gap: 12px;
+    height: 34px;
+    padding: 16px 12px;
+}
+
+.text-and-supporting-text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: fit-content;
+}
+
+.supporting-text {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.text-1 {
+    height: 20px;
+    line-height: 20px;
+    margin-top: -1px;
+    width: 143px;
+}
+
+.column-3 {
+    width: 185;
+}
+
+.text-2 {
+    line-height: 20px;
+    width: fit-content;
+}
+
+.column-5 {
+    width: fit-content;
+}
+
+.column-6 {
+    gap: 10px;
+    width: 72px;
+}
+
+.text-5 {
+    color: #667084;
+    font-family: var(--font-family-inter);
+    font-style: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: -1px;
+    opacity: 0;
+    width: fit-content;
+}
+
+.table-cell-3 {
+    gap: 12px;
+    justify-content: center;
+    padding: 16px 24px;
+    width: 72px;
+}
+
+.macbook-pro-1 .dropdown-10 {
+    align-items: flex-start;
+    display: flex;
+    font-display: column;
+    position: relative;
+    width: fit-content;
+}
+
+.more-vertical {
+    height: 20px;
+    min-width: 20px;
+    position: relative;
+}
+
+.dropdown {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+}
+
+.column-1 {
+    flex: 1;
+}
+
+.table-cell-1 {
+    align-self: stretch;
+    padding: 16px 24px;
+}
+
+.column-2 {
+    width: 184px;
+}
+
+.data-donatur-wakaf-infaq-shodaqoh {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 964px;
+}
+
+.berikut-adalah {
+    letter-spacing: 0;
+    line-height: 35px;
+    position: relative;
+    width: 830px;
+    margin-bottom: 5%;
+}
+
+.talansKorsGaard {
+    padding-top: 26px;
+}
+
+/* Ini Galeri */
+
+.berikut-adalah-galle {
+    white-space: nowrap;
+    width: 928px;
+    margin-bottom: 34px;
+}
+
+.gallery-masjid-besar-smk-wikrama-bogor {
+    margin-top: 9%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 964;
+}
+
+.frame-18703 {
+    margin-top: 5%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 51.55px;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-18701 {
+    align-items: flex-start;
+    display: flex;
+    gap: 31.82px;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-18621,
+.frame-18619,
+.frame-18620,
+.frame-18616,
+.group-584-1 {
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0.99px 7.92px 59.38px #0000001a;
+    height: 530.19px;
+    min-width: 390.78px;
+    position: relative;
+}
+
+.frame-18619 {
+    background-image: url(img/masjid1.png);
+}
+
+.frame-18620 {
+    background-image: url(img/masjid2.png);
+}
+
+.frame-18621 {
+    background-image: url(img/masjid3.png);
+}
+
+.frame-18616 {
+    background-image: url(img/masjid4.png);
+}
+
+.group-584-1 {
+    background-image: url(img/masjid5.png);
+}
+
+/* 18618 buat blue bg*/
+
+.frame-18618 {
+    background-image: url(img/blueBox.png);
+    background-position: 50% 50%;
+    box-shadow: 0.99px 7.92px 59.38px #0000001a;
+    height: 530.19px;
+    min-width: 390.78px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.frame-18702 {
+    align-items: flex-start;
+    display: flex;
+    gap: 31.82px;
+    position: relative;
+    width: fit-content;
+}
+
+@media (max-width: 768px) {
+    .frame-18703,
+    .frame-18701,
+    .frame-18621,
+    .frame-18619,
+    .frame-18620,
+    .frame-18616,
+    .group-584-1,
+    .frame-18618,
+    .frame-18702 {
+      height: auto;
+      min-width: auto;
+    }
+}
+
+.footer {
+    margin-top: 9%;
+    background-color: var(--tangaroa);
+    height: 500px;
+    min-width: auto;
+    position: relative;
+}
+
+.flex {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-col {
+    left: 965px;
+    min-height: 333px;
+    position: absolute;
+    top: 66px;
+    width: 290px;
+}
+
+.kirim-pesan {
+    letter-spacing: 0;
+    line-height: 25.6px;
+    min-height: 26px;
+    white-space: nowrap;
+}
+
+.overlap-group1 {
+    align-items: center;
+    background-color: var(---white);
+    border-radius: 5px;
+    display: flex;
+    height: 35px;
+    margin-top: 11px;
+    min-width: 288px;
+    padding: 0 11px;
+}
+
+.email {
+    letter-spacing: 0;
+    list-style-type: 20.8px;
+    min-height: 21px;
+    min-width: 36px;
+    white-space: nowrap;
+}
+
+.overlap-group-2 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    height: 35px;
+    margin-top: 10px;
+    min-width: 288px;
+    padding: 0 11px;
+    box-sizing: border-box;
+}
+
+.nama {
+    letter-spacing: 0;
+    line-height: 20.8px;
+    min-height: 21px;
+    min-width: 39px;
+    white-space: nowrap;
+}
+
+.overlap-group2 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    height: 143px;
+    margin-top: 11px;
+    min-width: 288px;
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+.pesan-anda {
+    letter-spacing: 0;
+    line-height: 20.8px;
+    min-height: 21px;
+    white-space: nowrap;
+}
+
+.frame-547-1 {
+    align-items: flex-start;
+    align-self: flex-end;
+    background-color: var(--yellow-sunshine);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-right: 2px;
+    margin-top: 19px;
+    padding: 12px 28px;
+    position: relative;
+    width: fit-content;
+}
+
+.submit {
+    color: var(--bay-of-many);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    letter-spacing: 0.21px;
+    line-height: 19.3px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.frame-18814 {
+    align-items: flex-start;
+    display: flex;
+    gap: 78px;
+    left: 77px;
+    position: absolute;
+    top: 59px;
+    width: fit-content;
+}
+
+.frame-18813 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+    width: fit-content;
+}
+
+.tentang-wikrama {
+    letter-spacing: 0;
+    line-height: 25.6px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.flex-container {
+    gap: 10px;
+    height: 292px;
+    width: 254px;
+}
+
+.text-4 {
+    line-height: 25.6px;
+    width: 254px;
+}
+
+.macbook-pro-1 .text-6 {
+    letter-spacing: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.frame-18812 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-558 {
+    align-items: center;
+    display: flex;
+    gap: 19.29px;
+    position: relative;
+    width: fit-content;
+}
+
+.unnamed-1-2 {
+    height: 69.45px;
+    min-width: 69.45px;
+    position: relative;
+}
+
+.smk-wikrama-bogor-1 {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 20.5px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 23.2px;
+    position: relative;
+    width: 191.95px;
+}
+
+.frame-18810 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: fit-content;
+}
+
+.vector {
+    height: 1px;
+    min-width: 240px;
+    position: relative;
+}
+
+.alamat-jl-raya-wang {
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.span-1 {
+    line-height: 16.6px;
+}
+
+.span-1 {
+    line-height: 25.6px;
+}
+
+.telepon-0251-8242411 {
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative;
+    width: 247px;
+}
+
+.frame-18811 {
+    height: 24px;
+    min-width: 127px;
+    position: relative;
+}
+
+.footer-copyright {
+    background-color: var(--white);
+    height: 66px;
+    min-width: auto;
+    position: relative;
+}
+
+.copyright-2023-s {
+    color: var(--tangaroa);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 18px;
+    font-weight: 500;
+    left: 432px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 594px;
+}
+
+.frame-574-1 {
+    align-items: flex-start;
+    align-self: flex-end;
+    background-color: var(--yellow-sunshine);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-right: 2px;
+    margin-top: 19px;
+    padding: 12px 28px;
+    position: relative;
+    width: fit-content;
+}
+
+.previous,
+.next {
+    transition: transform 0.3s ease;
+}
+
+.previous:hover,
+.next:hover {
+    transform: scale(2);
+}
